@@ -1,0 +1,102 @@
+.c1{
+  height: 110px;
+  width: 118px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.imgresize{
+  max-width: 100%;
+  max-height: 100%;
+}
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-signin .card-title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+.newimage{
+  display: none;
+}
+.card-signin .card-body {
+  padding: 2rem;
+}
+.c2{
+  padding-top: 11px;
+  box-sizing: border-box;
+  position: relative;
+  margin: 33px 0px 0px;
+}
+.c3{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  font-size: large;
+  letter-spacing: 15px;
+}
+.btncolor{
+  background-color: lightgray;
+  color: white;
+}
+
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 600px) {
+  .displayonresize{
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+
+  }
+  .hideit{
+    display: none;
+  }
+  .displayonresize div{
+    flex: 1 ;
+    height: auto;
+    width: auto;
+  }
+  .displayonlyonlargescreen{
+    display: none;
+  }
+}
+//media query for iphone 5 se
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px){
+  .displayonresize{
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+
+  }
+  .hideit{
+    display: none;
+  }
+  .displayonresize div{
+    flex: 1 ;
+    height: auto;
+    width: auto;
+  }
+  .displayonlyonlargescreen{
+    display: none;
+  }
+}
+
+//media queries for ipad
+@media only screen and (min-device-width: 768px) and (max-device-width: 1022px) {
+  .hideit{
+    display: none;
+  }
+}
+//media query for ipad-pro
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+.newimage{
+ display: block;
+}
+  .hideimage{
+    display: none;
+  }
+
+}

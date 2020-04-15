@@ -1,0 +1,84 @@
+.bggrad{
+  background-color: #006400;
+}
+.contentstyling{
+  font-family: 'Cinzel', serif;
+}
+.imgresize{
+  max-height: 100%;
+  max-width:100%;
+}
+.hideforlarge{
+  display: none;
+}
+//media queries for mobile screens
+@media only screen and (max-width: 600px) {
+  .displayonresize{
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+  }
+  .contentstyling{
+    font-size: xx-small;
+  }
+  .hideforlarge{
+    display: block;
+    align-items: center;
+  }
+  .hideforsmall{
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 600px) {
+  .displayonresize{
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+
+  }
+  .displayonresize div{
+    flex: 1 ;
+    height: auto;
+    width: auto;
+  }
+}
+//media query for iphone 5 se
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px){
+  .displayonresize{
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+  }
+  .hideforiphone{
+    display: none;
+  }
+  .contentstyling{
+    font-size: xx-small;
+  }
+  .hideforlarge{
+    display: block;
+    align-items: center;
+  }
+  .hideforsmall{
+    display: none;
+  }
+}
+////media query for ipad
+//@media only screen and (min-device-width: 768px) and (max-device-width: 1028px){
+//  .displayonresize{
+//    display: flex;
+//    flex-flow: row wrap;
+//    position: relative;
+//  }
+//  .contentstyling{
+//    font-size: xx-small;
+//  }
+//  .hideforlarge{
+//    display: block;
+//    align-items: center;
+//  }
+//  .hideforsmall{
+//    display: none;
+//  }
+//
+//}

@@ -1,0 +1,46 @@
+<app-landingpagemenu></app-landingpagemenu>
+<div class="container-fluid ">
+  <div class="row no-gutters displayonresize">
+    <div class="col-lg-6 hideit "><span class="newimage"><img src="../assets/images/img8.jpg" class="imgresize"></span><img src="../assets/images/img25.jpg" class="imgresize  hideimage"></div>
+  <div class="col-lg-6 col-xs-12 col-sm-12 col-md-12 ">
+
+
+    <div class="container">
+      <div class="row my-5">
+        <div class="col-lg-8 mx-auto">
+          <div class="card card-signin my-5" >
+            <div class="card-body">
+              <h5 class="card-title text-center">Log In</h5>
+              <div style="text-align: center;padding-bottom: 15px;"><a routerLink="/signup" >or click here to Create Account</a></div>
+
+              <!-- form starts-->
+              <div class="container">
+                <form ng-submit="vm.login()">
+                  <div>
+                    <div class="rounded my-2 c2">
+                      <input  class="md-form  p-2 form-control" type="text" name="username" placeholder="Email"  >
+                    </div>
+                    <div class="rounded my-2">
+                      <input class="md-form p-2 form-control" type="password"  name="password" placeholder="Password" id="password" >
+                    </div>
+                    <div>
+                      <button routerLink="/custhome" class="btn btn-outline-primary  mx-auto d-block btn mt-3">Login</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <!--form ends-->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

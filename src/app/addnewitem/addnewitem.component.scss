@@ -1,0 +1,55 @@
+.headingstyling{
+  font-family: 'Cinzel', serif;
+  font-size: xx-large;
+  color:#006400;
+}
+.fieldsstyling{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: large;
+}
+.placeholderstyling{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: small;
+}
+.bg{
+  background-color: #006400;
+  color:#006400;
+}
+
+
+
+
+//for very mobile screens
+@media only screen and (min-device-width: 320px) and (max-device-width: 823px) {
+  .displayonresize{
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+
+  }
+  .displayonresize div{
+    flex: 1 ;
+    height: auto;
+    width: auto;
+  }
+  .headingstyling{
+    font-size: large;
+  }
+  .fieldsstyling{
+    font-size: small;
+  }
+.form-group{
+  margin: auto;
+}
+}
+//media queries for iphone 5/SE
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+.bg{
+  display: none;
+}
+}
+//media query for ipad-pro
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+
+
+}

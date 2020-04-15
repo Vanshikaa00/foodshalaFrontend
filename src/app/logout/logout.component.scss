@@ -1,0 +1,40 @@
+
+.logo {
+  display: inline-block;
+  font-size: 89px;
+  color: #006400;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.brandtext{
+  font-family: 'Sofia', cursive;
+}
+.contentstyling{
+  font-family: 'Cinzel', serif;
+  font-size: xx-large;
+}
+.subcontentstyling{
+  font-size: x-large;
+  font-family: 'Cormorant Garamond', serif;
+}
+.c2{
+  background-color: #006400;
+  color: #006400;
+}
+.c1{
+  background-color: #1ba012;
+  color: #1ba012;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 600px) {
+  .logo{
+    font-size:50px;
+  }
+  .subcontentstyling{
+    font-size: large;
+  }
+  .contentstyling{
+    font-size: x-large;
+  }
+}

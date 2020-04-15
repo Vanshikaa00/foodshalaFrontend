@@ -1,0 +1,49 @@
+
+.imgresize{
+  max-height: 100%;
+  max-width:100%;
+}
+.h11{
+
+  font-family: 'Cinzel Decorative', cursive;
+  font-size:xx-large;
+}
+.formstyling{
+  font-family: 'Poiret One', cursive;
+}
+.placeholderstyling{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: small;
+}
+.hidden{
+  color:white;
+}
+#grad {
+  background-image: radial-gradient(circle, #62da5c, #59d552, #4fd047, #45cb3c, #39c62f, #30b926, #26ad1d, #1ba012, #13890d, #0c7307, #055e04, #014901);
+}
+.xx1{
+  background-color: white;
+}
+
+//media queries for mobile screens
+@media only screen and (max-width: 600px) {
+  .dontdisplayonsmallscreen{
+    display:none;
+  }
+  .h11{
+    font-size:medium;
+  }
+  .formstyling{
+    font-size: small;
+  }
+  .placeholderstyling{
+    font-size: xx-small;
+  }
+}
+
+//media queries for ipad
+@media only screen and (min-device-width: 768px) and (max-device-width: 1022px) {
+  .dontdisplayonsmallscreen{
+    display:none;
+  }
+}

@@ -1,0 +1,99 @@
+.imgresize{
+  max-height:100%;
+  max-width:100%;
+}
+.headingdecoration{
+  font-family: 'Cinzel Decorative', cursive;
+  font-size:xx-large;
+
+}
+.colcontentdecoration{
+  font-family: 'Cormorant Garamond', serif;
+}
+.btncenter{
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+}
+.subheadingdecoration{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: small;
+}
+
+//media queries for mobile screens
+@media only screen and (max-width: 600px) {
+ .headingdecoration{
+   font-size: medium;
+ }
+  .subheadingdecoration{
+    font-size: xx-small;
+  }
+  .colcontentdecoration{
+    font-size: small;
+  }
+  .custtype{
+    font-size: small;
+  }
+.removecol{
+  display: none;
+}
+  .displayonresize{
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+  }
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 600px) {
+  .displayonresize{
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+
+  }
+  .displayonresize div{
+    flex: 1 ;
+    height: auto;
+    width: auto;
+  }
+  .displayonlyonlargescreen{
+    display: none;
+  }
+}
+//media query for iphone 5 se
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px){
+  .displayonresize{
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+
+  }
+  .displayonresize div{
+    flex: 1 ;
+    height: auto;
+    width: auto;
+  }
+  .displayonlyonlargescreen{
+    display: none;
+  }
+}
+//media queries for ipad
+@media only screen and (min-device-width: 768px) and (max-device-width: 1022px) {
+  .removecol{
+    display: none;
+  }
+.displayonlyonlargescreen{
+  display: none;
+}
+}
+//media query for ipad-pro
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+  .removecol{
+    display: none;
+  }
+
+}
+
+@media only screen and (min-device-width: 1370px) {
+  .displayonresize{
+    display: none;
+  }
+}

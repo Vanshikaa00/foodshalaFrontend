@@ -1,0 +1,25 @@
+.contentstyling{
+  font-family: 'Cinzel', serif;
+  font-size: xx-large;
+}
+.subcontentstyling{
+  font-size: x-large;
+  font-family: 'Cormorant Garamond', serif;
+}
+.c2{
+  background-color: #006400;
+  color: #006400;
+}
+.c1{
+  background-color: #1ba012;
+  color: #1ba012;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 600px) {
+  .subcontentstyling{
+    font-size: small;
+  }
+  .contentstyling{
+    font-size: medium;
+  }
+}
